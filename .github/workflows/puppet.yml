@@ -11,8 +11,6 @@ concurrency:
 jobs:
   puppet:
     name: Puppet
-    run: |
-      echo hello world
-    #uses: voxpupuli/gha-puppet/.github/workflows/basic.yml@v1
+    uses: voxpupuli/gha-puppet/.github/workflows/basic.yml@v1
 
 
