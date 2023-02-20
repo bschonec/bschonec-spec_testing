@@ -2,7 +2,7 @@
 group :development do
 end
 
-source ENV['GEM_SOURCE'] || 'https://rubygems.org'
+source 'https://rubygems.org'
 
 # The test group is used for static validations and unit tests in gha-puppet's
 # basic and beaker gha-puppet workflows.
