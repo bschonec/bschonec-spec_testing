@@ -5,6 +5,7 @@ end
 source 'https://rubygems.org'
 gem 'parallel_tests'
 
+
 #gem 'parallel_tests', require: true
 # The test group is used for static validations and unit tests in gha-puppet's
 # basic and beaker gha-puppet workflows.
